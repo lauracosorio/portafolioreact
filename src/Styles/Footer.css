@@ -1,0 +1,30 @@
+.footer_area {
+    background: rgb(79, 186, 236, 0.329);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer_logo h4 {
+    color: rgb(12, 171, 245);
+    margin-top: 15px;
+}
+
+.footer-text {
+    color: rgb(12, 171, 245);
+}
+
+.footer_social {
+
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 5px;
+   
+}
+
+i {
+    color: rgb(12, 171, 245);
+}
+
+.items {
+    padding: 20px;
+}
