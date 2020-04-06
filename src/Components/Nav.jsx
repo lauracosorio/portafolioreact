@@ -3,7 +3,7 @@ import "../Styles/Header.css";
 
 function Nav(props) {
   const { dataNav } = props;
-
+  console.log(dataNav)
   return (
     <>
       <div className="main_menu">

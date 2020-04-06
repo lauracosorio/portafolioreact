@@ -1,7 +1,10 @@
 import React from "react";
-import "../Styles/Main.css"
+import "../Styles/Main.css";
 
-function Skills() {
+function Skills(props) {
+
+  const { Skills1, Skills2 } = props;
+  console.log( Skills1, Skills2);
   return (
     <>
       <div className="col-md-6 skills">
@@ -19,7 +22,7 @@ function Skills() {
               <div
                 className="progress-bar progre1"
                 role="progressbar"
-            //    {  ... style="width: 25%;"}
+                //    {  ... style="width: 25%;"}
                 aria-valuenow="65"
                 aria-valuemin="0"
                 aria-valuemax="100"
@@ -28,8 +31,14 @@ function Skills() {
               </div>
             </div>
           </h5>
+          
+          
           <h5 className="card-text text-justify text-secondary habilidades">
-            <p className="titulo">HTML/CSS</p>
+           
+          {Skills1.map((item, index) => {
+            return (
+              <>
+                <p className="titulo"  key={`skills-item-${index}`}>{item.titulo}</p>
             <div className="progress">
               <div
                 className="progress-bar"
@@ -39,27 +48,24 @@ function Skills() {
                 aria-valuemin="0"
                 aria-valuemax="100"
               >
-                60%
+                {item.porcentaje} %
               </div>
             </div>
+              </>
+            )
+          })}
+                  
+              
+              
+            
           </h5>
+
           <h5 className="card-text text-justify text-secondary habilidades">
-            <p className="titulo">BOOTSTRAP</p>
-            <div className="progress">
-              <div
-                className="progress-bar"
-                role="progressbar"
-                //   style="width: 25%;"
-                aria-valuenow="70"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                60%
-              </div>
-            </div>
-          </h5>
-          <h5 className="card-text text-justify text-secondary habilidades">
-            <p className="titulo">JAVASCRIPT</p>
+
+          {Skills2.map((item, index) => {
+            return (
+              <>
+                <p className="titulo" key={`skills-2-item-${index}`}>{item.titulo}</p>
             <div className="progress">
               <div
                 className="progress-bar progre2"
@@ -69,24 +75,17 @@ function Skills() {
                 aria-valuemin="0"
                 aria-valuemax="100"
               >
-                50%
+                {item.porcentaje} %
               </div>
             </div>
-          </h5>
-          <h5 className="card-text text-justify text-secondary habilidades">
-            <p className="titulo">REACT.JS</p>
-            <div className="progress">
-              <div
-                className="progress-bar progre2"
-                role="progressbar"
-                //   style="width: 25%;"
-                aria-valuenow="50"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                50%
-              </div>
-            </div>
+              </>
+            )
+          })}
+
+
+
+
+           
           </h5>
         </div>
       </div>

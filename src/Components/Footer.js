@@ -18,18 +18,18 @@ function Footer() {
                     href="https://www.linkedin.com/in/laura-cristina-osorio-gómez"
                     target="_blank"
                   >
-                    <i class="fab fa-linkedin fa-2x"></i>
+                    <i className="fab fa-linkedin fa-2x"></i>
                   </a>
                   &nbsp; &nbsp;
                   <a href="https://github.com/lauracosorio" target="_blank">
-                    <i class="fab fa-github fa-2x"></i>
+                    <i className="fab fa-github fa-2x"></i>
                   </a>
                   &nbsp; &nbsp;
                   <a
                     title="lauracosoriogomez@gmail.com"
                     target="_blank"
                   >
-                    <i class="fas fa-envelope fa-2x "></i>
+                    <i className="fas fa-envelope fa-2x "></i>
                   </a>
                 </div>
               </div>

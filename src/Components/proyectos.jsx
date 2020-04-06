@@ -18,7 +18,7 @@ function Proyectos(props) {
             {Proyectos.map((item, index) => {
               return (
                 <div className="col-lg-3 col-md-6">
-                  <div className="feature_item" key={`proyectos-item-${index}`}>
+                  <div className="feature_item" key={`proyects-item-${index}`}>
                     <img src={item.image}/>
                     <h4 className="titule">{item.titulo}</h4>
                     <p className="text-center">{item.expli}</p>

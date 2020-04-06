@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styles/Main.css";
 import Skills from "./skills.jsx";
+import {data} from "../utils/mocks/data";
 
 function SobreMi() {
   return (
@@ -27,7 +28,10 @@ function SobreMi() {
             </h5>
           </div>
         </div>
-        <Skills />
+        <Skills
+        Skills1= {data.Skill}
+        Skills2={data.Skills} 
+        />
       </div>
     </>
   );
