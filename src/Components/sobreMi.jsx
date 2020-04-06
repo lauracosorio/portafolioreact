@@ -8,12 +8,12 @@ function SobreMi() {
       <div className="row no-gutters">
         <div className="col-md-6">
           <div className="card-body container">
-            <h2
-              className="card-title about d-flex justify-content-center"
+            <h3
+              className="card-title about d-flex justify-content-center text-center"
               id="aboutme"
             >
               UN POCO SOBRE MI
-            </h2>
+            </h3>
             <br />
 
             <h5 className="card-text text-justify description container">

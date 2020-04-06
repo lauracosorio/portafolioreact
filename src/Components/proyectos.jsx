@@ -10,7 +10,7 @@ function Proyectos(props) {
           <div className="row justify-content-center ">
             <div className="col-lg-8 text-center ">
               <div className="main_title text-center">
-                <h2>MIS PROYECTOS</h2>
+                <h3>MIS PROYECTOS</h3>
               </div>
             </div>
           </div>

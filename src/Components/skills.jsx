@@ -6,12 +6,12 @@ function Skills() {
     <>
       <div className="col-md-6 skills">
         <div className="card-body container">
-          <h2
+          <h3
             className="card-title about d-flex justify-content-center text-center"
             id="aboutme"
           >
             MIS HABILIDADES
-          </h2>
+          </h3>
 
           <h5 className="card-text text-justify text-secondary habilidades">
             <p className="titulo">INGLÉS</p>
