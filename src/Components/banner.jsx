@@ -14,8 +14,8 @@ function Banner() {
       </label>
     </div>
     
-    <div class="redes-flotantes">
-    <div class="separator">
+    <div className="redes-flotantes">
+    <div className="separator">
       <a href="http://wa.me/573005716296" target="_blank"><img src={whatsapp}/></a>
     </div>
   </div>

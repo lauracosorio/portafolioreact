@@ -26,7 +26,7 @@ function Footer() {
                   </a>
                   &nbsp; &nbsp;
                   <a
-                    href="https://www.linkedin.com/in/laura-cristina-osorio-gómez"
+                    title="lauracosoriogomez@gmail.com"
                     target="_blank"
                   >
                     <i class="fas fa-envelope fa-2x "></i>

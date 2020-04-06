@@ -25,6 +25,8 @@
     position: fixed;
     right: 10px;
     top: 75%;
+    margin-left: auto;
+    margin-top: auto;
     }
 .redes-flotantes img {
     float: right; 
