@@ -1,7 +1,7 @@
 import React from "react";
 import Banner from "./banner.jsx";
 import Nav from "./Nav.jsx";
-import encabezado from "../encabezado2.png";
+import encabezado from "../images/encabezado2.png";
 import {data} from "../utils/mocks/data";
 
 function Header() {

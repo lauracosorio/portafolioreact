@@ -1,8 +1,8 @@
 import React from "react";
-import elefante from "../../elefante.jpg";
-import barbie from "../../Barbie.png";
-import banner from "../../banner.png";
-import css from "../../css.png";
+import elefante from "../../images/elefante.jpg";
+import barbie from "../../images/Barbie.png";
+import banner from "../../images/banner.png";
+import css from "../../images/css.png";
 
 export const data = {
   Header: [

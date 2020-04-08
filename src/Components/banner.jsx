@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/Header.css";
-import whatsapp from "../whatsapp.png" 
+import whatsapp from "../images/whatsapp.png" 
 
 function Banner() {
   return (
