@@ -19,7 +19,7 @@ function SobreMi() {
 
             <h5 className="card-text text-justify description container">
               Soy Laura Cristina Osorio Gómez, tengo 23 años y soy Ingeniera
-              biomédica y Desarrolladora Web Front-End con enfasis en REact.js .{" "}
+              biomédica y Desarrolladora Web Front-End con enfasis en React.js .{" "}
               <br />
               Apasionada por la tecnología,los retos y el desarrollo web. Me
               identifico por ser una persona responsable, comprometida y
